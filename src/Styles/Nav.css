@@ -23,8 +23,8 @@
   
   .nav-user-placer{
     margin-top: 13px;
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:row;
   }
   
   .nav-user{

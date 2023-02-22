@@ -1,5 +1,4 @@
-import React, { useRef, useEffect } from "react";
-import ReactDOM from "react-dom/client";
+import React from "react";
 import SearchIcon from '@mui/icons-material/Search';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
 import CollectionsIcon from '@mui/icons-material/Collections';

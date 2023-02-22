@@ -50,12 +50,13 @@ const NavBar = () => {
     }
   return (
     <>
-    <nav className="navbar">
+      <nav className="navbar">
         <div className="nav-placer">
           <div className="nav-title-placer">
             <h1 className="nav-title">MyStudio</h1>
           </div>
           <div className="nav-user-placer">
+            {/*<button>Sign up</button>*/}
             <span ref={notifIcon} className="nav-icon" onClick={handleClick}>
               <NotificationsNoneIcon /> <span ref={notifCircle} className="notifi-num"><CircleIcon /></span>
             </span>

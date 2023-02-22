@@ -1,0 +1,68 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.regTitle h1 {
+    color: rgb(56, 56, 56);
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.closeIcon {
+    margin-top: 4px;
+    float: right;
+}
+
+.closeIcon svg{
+    color: rgb(106, 106, 106);
+    cursor: pointer;
+}
+
+.closeIcon svg:hover {
+    color: black;
+}
+
+.forPass{
+    font-size: 14px;
+    color: blue;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.forPass:hover{
+    text-decoration: underline;
+}
