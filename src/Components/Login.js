@@ -2,8 +2,10 @@ import React,{useState} from 'react';
 import FormInput from './FormInput';
 import '../Styles/register.css';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
+
   const [values, setValues] = useState({
     username: "",
     email: "",
@@ -51,10 +53,10 @@ console.log(values);
           {inputs.map(input => (
               <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}  />
           ))}
-          <button>Log in</button>
+          <button className="logBtn">Log in</button>
           <p className='forPass'>Forgot your password?</p>
           <hr></hr>
-          <p>Don't have an account? <a href="/#">Sign up</a></p>
+          <p>Don't have an account? <Link className="pLink" to='/register'>Sign up</Link></p>
       </form>
   </div>
   )

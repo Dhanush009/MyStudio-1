@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import CircleIcon from '@mui/icons-material/Circle';
@@ -53,10 +54,11 @@ const NavBar = () => {
       <nav className="navbar">
         <div className="nav-placer">
           <div className="nav-title-placer">
-            <h1 className="nav-title">MyStudio</h1>
+            <NavLink activeClassName="active" to='/'>
+              <h1 className="nav-title">MyStudio</h1> 
+            </NavLink> 
           </div>
           <div className="nav-user-placer">
-            {/*<button>Sign up</button>*/}
             <span ref={notifIcon} className="nav-icon" onClick={handleClick}>
               <NotificationsNoneIcon /> <span ref={notifCircle} className="notifi-num"><CircleIcon /></span>
             </span>

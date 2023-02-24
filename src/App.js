@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar';
 import Home from './Components/Home'; 
 import Login from './Components/Login';
 import Registration from './Components/Registration';
+import Album from './Components/Album';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             <Route path='/' element={<Home />}  />
             <Route path='/login' element={<Login />}  />
             <Route path='/register' element={<Registration />}  />
+            <Route path='/album' element={<Album />} />
           </Routes>
           </>
 

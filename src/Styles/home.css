@@ -63,6 +63,7 @@
     border-left:0;
     display: grid;
     place-items: center;
+    cursor: pointer;
   }
   
   .searchInputs input:focus {
@@ -109,6 +110,10 @@
     margin-left: 3px;
     margin-top:8px;
   }
+
+  .galContent h2,.galContent h6{
+    cursor: default;
+  }
   
   .addGalBtn{
     display: inline-flex;
@@ -125,8 +130,8 @@
     margin-top: 22px;
   }
   
-  .addGalBtn:hover{
-    background: rgb(52, 52, 52);
+  .addGalBtn:hover > .btnIcon{
+    color: white;
   }
   
   .addGalBtn:active{
@@ -147,6 +152,7 @@
   
   .btnIcon{
     font-size: 1.5em;
+    color: gray;
   }
   
   .card-list{

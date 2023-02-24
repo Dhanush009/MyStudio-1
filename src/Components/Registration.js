@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import FormInput from './FormInput';
 import '../Styles/register.css';
 import CloseIcon from '@mui/icons-material/Close';
@@ -53,9 +54,9 @@ const Registration = () => {
                 <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}  />
             ))}
             
-            <button>Register</button>
+            <button className="logBtn">Register</button>
             <hr></hr>
-            <p>Already have an account? <a href="/#">Log in</a></p>
+            <p>Already have an account? <Link className="pLink" to='/login'>Log in</Link></p>
         </form>
     </div>
   )

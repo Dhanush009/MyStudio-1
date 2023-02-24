@@ -42,11 +42,11 @@ const Home = () => {
 
         <div className="card">
           <article className="content">
-            <a href="#0">
+            
               <div className="content-overlay"></div>
               <img className="content-image" src="/rashford.jpeg" alt="" />
               <div className="content-details fadeIn-bottom">
-                <h2 className="content-title">Marcus Rashford</h2>
+                <h2 className="content-title">Manchester United</h2>
               </div>
               <div className="content-btn">
                 <button className="content-icon">
@@ -63,7 +63,7 @@ const Home = () => {
                   </div>
                 </button>
               </div>
-            </a>
+            
 			</article>
         </div>
 
